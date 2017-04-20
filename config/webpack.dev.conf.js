@@ -33,6 +33,8 @@ module.exports = merge(config, {
   ],
   devtool: false,
   devServer: {
+    publicPath: '/',
+    contentBase: './src',
     historyApiFallback: true,
     stats: {
       colors: true

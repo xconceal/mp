@@ -4,7 +4,8 @@
   "description": "my project",
   "main": "main.jsx",
   "scripts": {
-    "dev": "webpack-dev-server --config ./config/webpack.base.conf.js --port 8100",
+    "dev": "webpack-dev-server --config ./config/webpack.dev.conf.js --port 8100",
+    "start": "npm run dev",
     "production": "webpack --config ./config/webpack.production.conf.js"
   },
   "author": "JerryZhang",
