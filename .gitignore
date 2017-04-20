@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+npm-debug.log
+mock/node_modules
+node_modules
+node_modules*
+build/
+build/*
+mock/nohup.out
+.idea
+.vscode
+.deploy
+*.swp
+nohup.out
+.gift.output
+.gift.preoutput
